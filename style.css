@@ -1,0 +1,250 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  /*    border: solid 2px red; */
+}
+html,
+body {
+  background-color: #bdfff0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-size: 14px;
+  font-family: 微軟正黑體;
+  font-weight: 700;
+}
+a {
+  color: initial;
+  text-decoration: initial;
+}
+
+/* .box {
+  width: 380px;
+  background-color: #fff;
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.3);
+  transition: 0.5s; 
+} */
+
+/*
+.box:hover .top {
+  height: 250px;
+} */
+
+.top {
+  background-image: url(https://lanny891002.github.io/img/IMG20210208172537.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  box-shadow: 15px 25px 10px -10px rgba(0, 0, 0, 0.15);
+  position: relative;
+  /* transition: 0.5s; */
+}
+.top .tag {
+  width: 80px;
+  height: 80px;
+  background-color: #cfe2ff;
+  border-radius: 50%;
+  box-shadow: 15px 15px 10px -5px rgba(0, 0, 0, 0.1);
+  float: right;
+  margin-right: -60px;
+}
+
+.top .tag2 {
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 15px 15px 10px -5px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.top .tag3 {
+  width: 40px;
+  height: 40px;
+  background-color: #cfe2ff;
+  border-radius: 50%;
+  box-shadow: 15px 15px 10px -5px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  right: 400px;
+  top: 300px;
+  animation-name: boxmove;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.top .tag4 {
+  width: 70px;
+  height: 70px;
+  background-color: #cfe2ff;
+  border-radius: 50%;
+  box-shadow: 15px 15px 10px -5px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  right: -180px;
+  top: 230px;
+  animation-name: boxmove1;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.top .tag5 {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 15px 15px 10px -5px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  right: 500px;
+  top: 100px;
+  animation-name: boxmove2;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.top .tag6 {
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 15px 15px 10px -5px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  right: -70px;
+  top: 55px;
+}
+
+.top .tag7 {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 15px 15px 10px -5px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  right: -250px;
+  top: 100px;
+  animation-name: boxmove2;
+  animation-duration: 4.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes boxmove {
+  0% {
+  }
+  25% {
+    background: #fff;
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    background: #a8ecff;
+  }
+}
+
+@keyframes boxmove1 {
+  0% {
+  }
+  25% {
+    background: #a8ecff;
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    background: #ffe3fa;
+  }
+}
+
+@keyframes boxmove2 {
+  0% {
+  }
+  25% {
+    background: #ffe3fa;
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  100% {
+    background: #a8ecff;
+  }
+}
+
+.top .name {
+  position: absolute;
+  left: 60px;
+  top: 255px;
+  color: #ffffff;
+  font-size: 42px;
+  font-weight: 500;
+}
+.top .name .smallText {
+  font-size: 32px;
+}
+.cirbutton {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 15px 15px 10px -5px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  right: -5px;
+  top: 320px;
+}
+
+/* .bottom {
+  padding: 10px 20px 20px 20px;
+}
+.bottom li {
+  padding: 5px 0px;
+}
+.bottom h3 {
+  display: inline-block;
+}
+.bottom ul {
+  list-style: none;
+  padding-left: 0;
+} */
+
+.buttons {
+  margin-top: 35px;
+}
+.buttons .btn {
+  display: inline-block;
+  padding: 10px 25px;
+  border-radius: 50px;
+  letter-spacing: 2.5px;
+}
+.btnPerson {
+  background-color: #5bffel;
+  color: white;
+  transition: 0.5s;
+}
+.btnPerson:hover {
+  background-color: #a8ecff;
+}
+.btnResume {
+  background-color: #5bffel;
+  color: white;
+  transition: 0.5s;
+}
+.btnResume:hover {
+  background-color: #ffe3fa;
+}
+.btnProject {
+  background-color: #5bffel;
+  color: white;
+  transition: 0.5s;
+}
+.btnProject:hover {
+  background-color: #adf7b2;
+}
